@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Contenedor{
+    background-color: #CDCDCD;
+    display: grid;
+    grid-template-columns: repeat(1,1fr) repeat(1,1fr) repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr);;
+    width: 95vw;
+    height: 100vh;
+    font-size: 14px;
+}
+
+.Directorio{
+    background-color: black;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 6vh;
+    color: #CDCDCD;
+}
+
+.Principal{
+    background-image: url("fondo.jpg");
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 54vh;
+    width: 100vw;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.Central_Izq{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 36vh;
+    width: 33vw;
+    text-align: justify;
+    background-color: #CDCDCD;
+}
+
+.Central_Cen{
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 36vh;
+    width: 34vw;
+    background-color: aquamarine;
+}
+
+.Central_Der{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 36vh;
+    width: 33vw;
+    text-align: justify;
+    background-color: #AAAFB2;
+}
+
+.Bottom{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    height: 4vh;
+    background-color: black;
+}
+
+.image-profile{
+    max-height: 300px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: auto;
+    margin: 0px auto;
+    border-radius: 5%;
+    margin-bottom: 35px;
+}
+
+h2{
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#link{
+    color:#999DA2;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    align-self:center;
+}
+}
